@@ -1,0 +1,79 @@
+._body {
+    /* _Body */
+
+    position: absolute;
+    width: 1240px;
+    height: 1095px;
+    left: 100px;
+    top: 171px;
+}
+
+._section1 {
+    /* _Section 1 */
+
+    position: absolute;
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 171px;
+}
+
+.texte-section1 {
+    /* Chez vous, partout et ailleurs */
+
+    position: absolute;
+    left: 25.9%;
+    right: 25.14%;
+    top: 24.32%;
+    bottom: 69.04%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 142.6%;
+    /* or 68px */
+
+    display: flex;
+    align-items: flex-end;
+
+    color: #FFFFFF;
+}
+
+.groupe-image-section1 {
+    /* Mask Group */
+
+    position: absolute;
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 171px;
+
+    background: #F7F7F7;
+    border-radius: 25px;
+}
+
+.image-background-section1 {
+    /* Background */
+
+    position: absolute;
+    width: 1240px;
+    height: 223px;
+    left: 100px;
+    top: 171px;
+
+    background: #000000;
+    mix-blend-mode: darken;
+    opacity: 0.3;
+    border-radius: 25px;
+}
+
+.image-section1 {
+    /* IMG */
+
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 100px;
+    top: -573px;
+}

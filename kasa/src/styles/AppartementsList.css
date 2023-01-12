@@ -1,0 +1,10 @@
+.appartement-box {
+    list-style-type: none;
+    display: flexbox;
+}
+
+.box-appart {
+    list-style-type: none;
+    display: flex;
+    margin: 10px;
+}
