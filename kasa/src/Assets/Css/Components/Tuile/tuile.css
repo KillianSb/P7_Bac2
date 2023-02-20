@@ -1,0 +1,57 @@
+.Tuile-div-container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 30px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+}
+
+.Tuile-container {
+  height: 340px;
+  border-radius: 10px;
+  margin-left: 21px;
+  margin-right: 19px;
+  margin-bottom: 22px;
+  width: 100%;
+  overflow: hidden;
+}
+.Tuile-container .image-container {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Tuile-container h2 {
+  color: white;
+  font-weight: 500;
+  height: 52px;
+  font-size: 18px;
+  line-height: 142.6%;
+  position: relative;
+  bottom: 35%;
+  right: -5%;
+  text-align: start;
+  width: 70%;
+  text-decoration: none;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+@media screen and (min-width: 1080px) {
+  .Tuile-div-container {
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background: #F7F7F7;
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 56px;
+  }
+  .Tuile-div-container a {
+    width: 33%;
+  }
+  .Tuile-div-container .Tuile-container {
+    height: 340px;
+  }
+}/*# sourceMappingURL=tuile.css.map */

@@ -1,0 +1,39 @@
+.page-404{
+    font-family: 'Montserrat';
+    color: #FF6060;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.titre-404{
+    display: flex;
+    align-items: flex-end;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 198px;
+    font-size: 96px;
+}
+.description-404{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    text-align: center;
+    width: 220px;
+}
+.retour{
+    margin-top: 133px;
+    font-size: 18px;
+    text-decoration: underline !important;
+}
+@media screen and (min-width: 1080px) {
+    .titre-404{
+        font-size: 288px;
+    }
+    .description-404{
+        font-size: 36px;
+        width: 100%;
+    }
+    .retour{
+        margin-bottom: 159px;
+    }
+}

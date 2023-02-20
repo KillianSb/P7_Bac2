@@ -1,5 +1,10 @@
 import React from "react";
-import Logo from "../../assets/images/LOGOFooter.jpg";
+import Logo from "../../Assets/Images/LOGO.png";
+
+import "../../Assets/Css/Font/font.css"
+import "../../Assets/Css/Layouts/Footer/footer.css"
+import "../../Assets/Css/Utils/Reset/reset.css"
+import "../../Assets/Css/Utils/Variable/variable.css"
 
 function Footer() {
   return (

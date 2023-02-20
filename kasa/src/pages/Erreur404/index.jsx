@@ -1,6 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
+import "../../Assets/Css/Pages/Error/error.css"
+import "../../Assets/Css/Utils/Reset/reset.css"
+import "../../Assets/Css/Utils/Variable/variable.css"
+
 function Erreur() {
     return (
         <>

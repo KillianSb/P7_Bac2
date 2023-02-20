@@ -1,8 +1,13 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import Banniere from "../../components/Banniere/";
-import ListeLogement from "../../assets/logements.json";
-import Tuile from "../../components/Tuile/tuile";
+import Banniere from "../../Components/Banniere/";
+import ListeLogement from "../../Assets/logements.json";
+import Tuile from "../../Components/Tuile/tuile";
+
+import "../../Assets/Css/Components/Banniere/banniere.css"
+import "../../Assets/Css/Components/Tuile/tuile.css"
+import "../../Assets/Css/Utils/Reset/reset.css"
+import "../../Assets/Css/Utils/Variable/variable.css"
 
 function Accueil() {
     return (

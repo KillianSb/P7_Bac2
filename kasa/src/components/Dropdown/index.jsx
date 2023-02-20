@@ -1,5 +1,5 @@
 import { React, useState } from "react";
-import Image from '../../assets/images/arrow_back_ios-24px 2.jpg'
+import Image from '../../Assets/Images/DropdownLogo.png'
 
 function Dropdown({ Texte, principes, index }) {
   const [open, setOpen] = useState(false);

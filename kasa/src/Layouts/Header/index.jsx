@@ -1,24 +1,20 @@
+import React from 'react'
 import { Link } from 'react-router-dom'
-import styled from 'styled-components'
-import colors from '../../utils/style/colors'
+import Logo from "../../Assets/Images/profile.png"
 
-const StyledLink = styled(Link)`
-    padding: 15px;
-    color: #8186a0;
-    text-decoration: none;
-    font-size: 18px;
-    ${(props) =>
-        props.$isFullLink &&
-        `color: white; border-radius: 30px; background-color: ${colors.primary};`}
-`
+import "../../Assets/Css/Layouts/Header/header.css"
+import "../../Assets/Css/Utils/Reset/reset.css"
+import "../../Assets/Css/Utils/Variable/variable.css"
 
 function Header() {
     return (
-        <nav>
-            <StyledLink to="/">Accueil</StyledLink>
-            <StyledLink to="/logement">Fiche</StyledLink>
-            <StyledLink to="/apropos">A Propos</StyledLink>
-        </nav>
+        <header>
+            <img src={Logo} alt="logo Kasa rouge"></img>
+            <div className="Header-div">
+                <Link to="/">Accueil</Link>
+                <Link to="/apropos">A Propos</Link>
+            </div>
+        </header>
     )
 }
 

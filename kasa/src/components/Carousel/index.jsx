@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Fleche from "../../assets/images/FlecheCarousel.jpg"
+import Fleche from "../../Assets/Images/FlecheCarousel.png"
 
 function Caroutest({slides}) {
     const [current, setCurrent] = useState(0)

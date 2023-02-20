@@ -1,5 +1,5 @@
 import React from 'react'
-import imageBanner from '../../assets/images/IMGBanner.jpg';
+import imageBanner from '../../Assets/Images/Banniere.png';
 
 function AccueilImage() {
   return (

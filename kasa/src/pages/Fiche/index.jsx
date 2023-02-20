@@ -1,11 +1,18 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import Star from "../../components/Star";
-import Carousel  from "../../components/Carousel";
-import Dropdown from "../../components/Dropdown";
-import Tags from "../../components/Tags";
-import ListeLogement from '../../assets/logements.json'
-import ErrorPage from "../../pages/Erreur404";
+import Star from "../../Components/Star";
+import Carousel  from "../../Components/Carousel";
+import Dropdown from "../../Components/Dropdown";
+import Tags from "../../Components/Tags";
+import ListeLogement from '../../Assets/logements.json'
+import ErrorPage from "../../Pages/Erreur404";
+
+import "../../Assets/Css/Utils/Variable/variable.css"
+import "../../Assets/Css/Components/Carousel/carousel.css"
+import "../../Assets/Css/Components/Dropdown/dropdown.css"
+import "../../Assets/Css/Components/Tags/tags.css"
+import "../../Assets/Css/Utils/Reset/reset.css"
+import "../../Assets/Css/Pages/Fiche/fiche.css"
 
 
 function Fiche() {

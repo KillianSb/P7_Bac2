@@ -1,0 +1,94 @@
+#carouselExampleControls{
+    height: 225px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:15px;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: black;
+}
+.carouselContainer{
+    height: 225px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom:15px;
+    overflow: hidden;
+    border-radius: 10px;
+    img{
+        object-fit: cover;
+    }
+}
+.leftArrow{
+    color: black;
+    height: 120px;
+}
+.carousel-control-prev{
+    position: relative;
+    top: -55%;
+    left: 5%;
+}
+.carousel-control-next{
+    position: relative;
+    left: 90%;
+    top: -89%;
+}
+.rightArrow{
+    color: red;
+    height: 120px;
+    transform: rotate(180deg);
+}
+.carousel-inner{
+    height: 100%;
+    width: 100%;
+}
+.carousel-Item{
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+}
+.d-block{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.slide{
+    transition: 1s ease;
+}
+
+@media screen and (min-width: 1080px){
+    .carouselContainer{
+        margin-left: 100px;
+        margin-right: 100px;
+        height: 415px;
+        border-radius: 25px;
+        background-color: black;
+    }
+    #carouselExampleControls{
+        height: 415px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    .carousel-control-next{
+        left: 80%;
+        top: -130%;
+    }
+    .carousel-control-prev {
+        top: -65%;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .carousel-control-prev {
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .carousel-control-prev {
+        left: -4%;
+    }
+}

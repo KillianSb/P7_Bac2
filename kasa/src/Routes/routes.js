@@ -1,9 +1,9 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Accueil from '../pages/Accueil';
-import Fiche from '../pages/Fiche';
-import APropos from '../pages/Apropos';
-import Erreur from '../pages/Erreur404';
+import Accueil from '../Pages/Accueil';
+import Fiche from '../Pages/Fiche';
+import APropos from '../Pages/Apropos';
+import Erreur from '../Pages/Erreur404';
 
 export default function RoutesApp() {
     return (
