@@ -23,7 +23,7 @@
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
-  margin-bottom: 16px;
+  margin: 25px;
 }
 .intelContainerOwner .IntelContainerLandlord {
   display: flex;
