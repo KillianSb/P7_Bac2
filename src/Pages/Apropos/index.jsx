@@ -1,15 +1,16 @@
 
 import React from "react";
 import 'react-router-dom'
-import Dropdown from "../../Components/Dropdown/index";
+import Dropdown from "../../Components/Dropdown/index"
 
 import "../../Assets/Css/Components/Dropdown/dropdown.css"
 import "../../Assets/Css/Utils/Reset/reset.css"
 import "../../Assets/Css/Utils/Variable/variable.css"
 
+
 function Apropos(Texte, principes, index) {
     return (
-        <>
+    <>
       <main>
         <div className="pageContainer">
           <Dropdown

@@ -4,7 +4,7 @@ import Star from "../../Components/Star";
 import Carousel  from "../../Components/Carousel";
 import Dropdown from "../../Components/Dropdown";
 import Tags from "../../Components/Tags";
-import ListeLogement from '../../Assets/logements.json'
+import ListeLogement from '../../Assets/logements.json';
 import ErrorPage from "../../Pages/Erreur404";
 
 import "../../Assets/Css/Utils/Variable/variable.css"
@@ -13,7 +13,6 @@ import "../../Assets/Css/Components/Dropdown/dropdown.css"
 import "../../Assets/Css/Components/Tags/tags.css"
 import "../../Assets/Css/Utils/Reset/reset.css"
 import "../../Assets/Css/Pages/Fiche/fiche.css"
-
 
 function Fiche() {
   // Récuparation ID du logement
