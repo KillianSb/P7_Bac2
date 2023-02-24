@@ -17,6 +17,10 @@
   margin-bottom: 10px;
   margin-top: 0px;
 }
+.intelContainer .intelContainerLogement {
+  margin: 5px;
+  padding-right: 10px;
+}
 
 .intelContainerOwner {
   display: flex;

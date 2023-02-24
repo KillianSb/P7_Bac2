@@ -1,3 +1,8 @@
+header {
+    margin-left: 46px !important;
+    margin-right: 46px !important;
+}
+
 #carouselExampleControls{
     height: 225px;
     margin-left: 20px;
@@ -87,8 +92,61 @@
     }
 }
 
+// @media screen and (max-width: 500px){
+//     .carousel-control-prev {
+//         left: -4%;
+//     }
+// }
+
 @media screen and (max-width: 500px){
+    .Header-div {
+        min-width: 16vh !important;
+    }
     .carousel-control-prev {
-        left: -4%;
+        top: -56%;
+        left: 1%;
+    }
+    .carousel-control-next {
+        left: 85%;
+        top: -83%;
+    }
+    .rightArrow {
+        height: 50px;
+    }
+    .leftArrow {
+        height: 50px;
+    }
+    main {
+        margin: 0px !important;
+        min-height: 73vh !important;
+    }
+    header {
+        margin-left: 20px !important;
+        margin-right: 23px !important;
     }
 }
+
+// @media screen and (max-width: 380px){
+//     .carousel-control-prev {
+//         top: -56%;
+//         left: 1%;
+//     }
+//     .carousel-control-next {
+//         left: 85%;
+//         top: -83%;
+//     }
+//     .rightArrow {
+//         height: 50px;
+//     }
+//     .leftArrow {
+//         height: 50px;
+//     }
+//     main {
+//         margin: 0px !important;
+//         min-height: 73vh !important;
+//     }
+//     header {
+//         margin-left: 20px !important;
+//         margin-right: 23px !important;
+//     }
+// }
