@@ -1,5 +1,5 @@
-import StarFull from "../../Assets/Images/star_rate-24px 2.svg";
-import StarEmpty from "../../Assets/Images/star_rate-24px 5.svg";
+import StarFull from "../../Assets/Images/star_rate-24px 5.svg";
+import StarEmpty from "../../Assets/Images/star_rate-24px 2.svg";
 
 function Star({ratings,index}) {
     const totalStar = 5;
