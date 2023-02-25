@@ -54,7 +54,7 @@
         border-bottom-left-radius: 5px;
         border-bottom-right-radius: 5px;
         color: #ff6060;
-        min-height: 100px;
+        min-height: 100%;
         padding: 25px 10px 10px 10px;
         z-index: 1;
         p{
@@ -95,8 +95,8 @@
             justify-content: space-between;
         }
         .pageContainer{
-            margin-left: 208px;
-            margin-right: 209px;
+            margin-left: 15%;
+            margin-right: 15%;
             min-height: 48vh;
         }
         .Dropdown-container{
