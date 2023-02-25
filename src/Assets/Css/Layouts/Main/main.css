@@ -1,4 +1,10 @@
 main {
   min-height: 70vh;
   margin: auto 0;
+}
+
+@media screen and (max-width: 1080px) {
+  main {
+    min-height: 80vh;
+  }
 }/*# sourceMappingURL=main.css.map */
