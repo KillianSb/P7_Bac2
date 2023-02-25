@@ -37,6 +37,9 @@ a{
     text-align: right;
     color: #FF6060;
     text-decoration: none;
+    &.active{
+        text-decoration: underline !important;
+    }
 }
 a:hover{
     text-decoration-line: underline;
@@ -46,7 +49,7 @@ a:hover{
 }
 @media screen and (max-width: 1900px) {
     .Header-div{
-        min-width: 35vh;
+        min-width: 24vh;
     }
 }
 @media screen and (max-width: 1080px) {
@@ -59,7 +62,7 @@ a:hover{
     }
     .Header-div{
         text-transform: uppercase;
-        min-width: 20vh;
+        min-width: 14vh;
         a{
             font-size: 12px;
         }
