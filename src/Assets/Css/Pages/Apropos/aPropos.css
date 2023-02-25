@@ -1,3 +1,5 @@
-main {
-  min-height: 50vh;
+@media screen and (min-width: 1080px) {
+  .AccueilImageDiv {
+    height: 223px;
+  }
 }/*# sourceMappingURL=aPropos.css.map */
