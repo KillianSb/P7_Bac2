@@ -9,10 +9,16 @@ import "../../Assets/Css/Components/Tuile/tuile.css"
 import "../../Assets/Css/Utils/Reset/reset.css"
 import "../../Assets/Css/Utils/Variable/variable.css"
 
+import BanniereImage from "../../Assets/Images/Banniere.png"
+
 function Accueil() {
     return (
     <>
-        <Banniere />
+        <Banniere 
+        image= {BanniereImage}
+        title='Chez vous, partout et ailleurs'
+        alt='rivages rocheux avec forêt'
+        />
         <section className="Tuile-div-container">
             {ListeLogement.map((logement) => (
                 <Link key={logement.id} to={`/logement/${logement.id}`}>

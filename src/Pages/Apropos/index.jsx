@@ -2,16 +2,23 @@
 import React from "react";
 import 'react-router-dom'
 import Dropdown from "../../Components/Dropdown/index"
+import Banniere from "../../Components/Banniere/";
+
 
 import "../../Assets/Css/Components/Dropdown/dropdown.css"
 import "../../Assets/Css/Utils/Reset/reset.css"
 import "../../Assets/Css/Utils/Variable/variable.css"
 
+import BanniereImage from "../../Assets/Images/Banniere2.png"
 
 function Apropos(Texte, principes, index) {
     return (
     <>
       <main>
+      <Banniere 
+        image= {BanniereImage}
+        styles={'styleApropos'}
+        />
         <div className="pageContainer">
           <Dropdown
             Texte={"Fiabilité"}

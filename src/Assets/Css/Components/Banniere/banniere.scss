@@ -1,10 +1,11 @@
 .AccueilImageDiv{
     border-radius: 25px;
     height: 225px;
-    margin-bottom: 35px;
     position: relative;
+    margin-top: 20px;
     margin-left: 100px;
     margin-right: 100px;
+    margin-bottom: 22px;
 }
 .AccueilImageDiv>h2{
     color: #ffffff;
@@ -33,18 +34,21 @@
   }
 @media screen and (max-width: 1080px) {
     .AccueilImageDiv{
-        margin-top: 20px;
-        margin-left: 20px;
-        margin-right: 20px;
-        margin-bottom: 22px;
         border-radius: 10px;
         height: 111px;
-        justify-content: flex-start;
+        margin-left: 20px;
+        margin-right: 20px;
     }
     .AccueilImageDiv>h2{
         font-size: 24px;
         left: 15px;
         transform: translateY(-40%) translateX(0%);
         width: 65%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #styleApropos{
+        height: 223px !important;
     }
 }

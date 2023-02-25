@@ -1,12 +1,11 @@
 import React from 'react'
-import imageBanner from '../../Assets/Images/Banniere.png';
 
-function AccueilImage() {
+function AccueilImage(props) {
   return (
-    <div className='AccueilImageDiv' alt="rivages rocheux avec forêt">
-        <img src={imageBanner} alt="Img banner"/>
+    <div className='AccueilImageDiv' id={props.styles} alt={props.alt}>
+        <img src={props.image} alt="Img banner"/>
         <div className="banniere-sombre"></div>
-        <h2>Chez vous, partout et ailleurs</h2>
+        <h2>{props.title}</h2>
     </div>
   )
 }
