@@ -1,16 +1,18 @@
-header {
-    margin-left: 46px !important;
-    margin-right: 46px !important;
-}
-
 #carouselExampleControls{
     height: 225px;
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom:15px;
     overflow: hidden;
     border-radius: 10px;
     background-color: black;
+}
+.compteur{
+    top: -36px;
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    text-shadow: 2px 2px 4px #000000;
 }
 .carouselContainer{
     height: 225px;
@@ -99,9 +101,6 @@ header {
 // }
 
 @media screen and (max-width: 500px){
-    .Header-div {
-        min-width: 16vh !important;
-    }
     .carousel-control-prev {
         top: -56%;
         left: 1%;
@@ -119,10 +118,6 @@ header {
     main {
         margin: 0px !important;
         min-height: 73vh !important;
-    }
-    header {
-        margin-left: 20px !important;
-        margin-right: 23px !important;
     }
 }
 
