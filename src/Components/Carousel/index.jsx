@@ -21,8 +21,9 @@ function Caroutest({slides}) {
             return (
                 <div className={index === current ? "carousel-Item" : "slide"} key={index}>
                     {index === current && (
-                    <img className="d-block" src={slide} alt="Présentation logement" key={index}/>
+                    <img className="d-block" src={slide} alt="Présentation logement" key={index} />
                     )}
+                    
                 </div>
             )
             })
@@ -36,6 +37,7 @@ function Caroutest({slides}) {
             <img className="rightArrow" src={Fleche} alt='Fleche direction suivant'/>
         </a>
     </div>
+    <div className='compteur'>{current +1}/{length}</div>
     </>
   )
 };
