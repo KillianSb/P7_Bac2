@@ -27,7 +27,7 @@
   justify-content: space-between;
   flex-direction: row-reverse;
   align-items: center;
-  margin: 25px;
+  margin: 25px 0;
 }
 .intelContainerOwner .IntelContainerLandlord {
   display: flex;
@@ -40,6 +40,7 @@
   line-height: 142.6%;
   margin-right: 10.5px;
   color: #FF6060;
+  font-style: normal;
 }
 .intelContainerOwner .Picture {
   height: 64px;

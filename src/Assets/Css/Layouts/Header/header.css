@@ -4,6 +4,11 @@ main {
   margin: auto 0;
 }
 
+@media screen and (max-width: 1080px) {
+  main {
+    min-height: 80vh;
+  }
+}
 header {
   display: flex;
   justify-content: space-between;
